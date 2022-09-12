@@ -13,12 +13,12 @@ import {
 import { db } from "./firebase";
 
 const style = {
-  bg: `h-screen w-screen p-4 bg-gradient-to-r from-[#2F80ED] to-[#1CB5E0]`,
+  bg: `min-h-screen min-w-screen p-4 bg-gradient-to-r from-[#2F80ED] to-[#1CB5E0]`,
   container: `bg-slate-100 max-w-[500px] w-full m-auto rounded-md shadow-xl p-4`,
-  heading: `text-3xl font-bold text-center text-gray-800 p-2`,
+  heading: `text-3xl font-bold text-center text-gray-800 p-2 m-4`,
   form: `flex justify-between`,
   input: `border p-2 w-full text-xl rounded-md`,
-  button: `border p-4 ml-2 bg-purple-500 rounded-md text-slate-100`,
+  button: `border p-4 ml-2 bg-sky-200 hover:bg-sky-300 rounded-md text-neutral-400`,
   count: `text-center p-2`,
 };
 
